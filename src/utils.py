@@ -21,6 +21,7 @@ def add_tasks_to_queue_reddit_user(tasks: celery.local.PromiseProxy, elements: l
         print(element.author_name)
         tasks.apply_async(args=[element.author_name])
 
+
 def add_task_to_queue_upload_file(tasks: celery.local.PromiseProxy, elements: list[RedditPostModel]) -> None:
     for element in elements:
         if element.image_url:

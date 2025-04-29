@@ -37,4 +37,3 @@ class RequestHandler:
             else:
                 sleep(1)
                 return self.get(url, headers, retry)
-

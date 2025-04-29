@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this script is to crawl Reddit and LinkedIn. 
+The goal of this script is to crawl Reddit and LinkedIn.
 
 ___
 
@@ -32,7 +32,6 @@ ___
 ## URLs
 
 - [Minio](http://localhost:9001/login)
-
 
 ## Issues
 
