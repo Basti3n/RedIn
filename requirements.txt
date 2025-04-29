@@ -1,0 +1,5 @@
+niquests==3.14.0
+beautifulsoup4==4.13.4
+minio==7.2.15
+celery==5.5.1
+redis==5.2.1
